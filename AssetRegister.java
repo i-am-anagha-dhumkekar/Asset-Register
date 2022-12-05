@@ -125,7 +125,7 @@ public class AssetRegister {
 				
 				if(finder)
 				{
-					System.out.println("Name must contain only Numbers.Enter again: ");
+					System.out.println("Quantity must contain only Numbers.Enter again: ");
 					quan=brRead.readLine();
 				}
 				else
@@ -137,7 +137,7 @@ public class AssetRegister {
 		}
 		catch(Exception e)
 		{
-			System.out.println("Invalid entry in quantity name");
+			System.out.println("Invalid entry in quantity");
 			
 			
 		}
@@ -158,7 +158,7 @@ public class AssetRegister {
 				
 				if(finder)
 				{
-					System.out.println("Name must contain only Alphabets.Enter again: ");
+					System.out.println("Please enter true or false only");
 					available=brRead.readLine();
 				}
 				else
@@ -191,7 +191,7 @@ public class AssetRegister {
 				
 				if(finder)
 				{
-					System.out.println("Name must contain only Alphabets.Enter again: ");
+					System.out.println("Date must contain only numbers and /");
 					manufacturingDate=brRead.readLine();
 				}
 				else if(manufacturingDate.length()!=10){
@@ -232,7 +232,7 @@ public class AssetRegister {
 					brand=brRead.readLine();
 				}
 				else if(brand.length()>=20){
-					System.out.println("brand Name should be under 20 or equal to 20 characters.");
+					System.out.println("Brand Name should be under 20 or equal to 20 characters.");
 					brand=brRead.readLine();
 				}
 				else
